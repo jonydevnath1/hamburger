@@ -1,0 +1,524 @@
+body {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+h1,h2,h3,h4 {
+  color: #42200b;
+}
+
+#wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* position */
+
+#header, #sec4, #footer {
+    position: relative;
+}
+/* position */
+
+
+/* overflow */
+
+#sec1,
+#sec2,
+#sec3,
+#sec4,
+form {
+    overflow: hidden;
+}
+  
+/* overflow */
+
+
+/* header */
+
+#header {
+    background-image: url("img/bg.png");
+    height: 825px;
+}
+
+/* header left */
+
+#header .header_left {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+.logo {
+    width: 50%;
+}
+
+#header .header_left .title_left {
+  margin-top: 13pc;
+}
+
+#header .header_left .title_left h4 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 27px;
+  font-weight: 400;
+  text-align: center;
+  border: 2px solid #42200b; 
+  border-style: dashed; 
+  padding: 10px;
+  margin-right: 21%;
+}
+
+#header .header_left .title_left h1 {
+   font-family: 'Alfa Slab One', cursive; 
+   font-size: 125px;
+   line-height: 0;
+   color: wheat;
+}
+#header .header_left .title_left .shadow {
+   color: #42200b;
+   position: absolute;
+   top: 22.8pc;
+   left: 4.1pc;
+}
+#header .header_left .title_left h2 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 50px;
+  line-height: 0.4;
+  color: wheat;
+}
+
+#header .header_left .title_left .shadow1 {
+  color: #42200b;
+  position: absolute;
+  top: 30.8pc;
+  left: 4.1pc;
+}
+
+/* header left */
+
+/* header right */
+
+#header .header_right {
+   width: 50%;
+   float: right;
+}
+
+#header .header_right .title_right {
+ width: 42%;
+ overflow: hidden;
+ float: right;
+ margin-right: 7%;
+}
+
+#header .header_right .logo1 {
+  width: 16%;
+  float: left;
+}
+
+#header .header_right .title {
+ float: right;
+ margin-top: 10px;
+ color: black;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 15px;
+}
+
+/* navbar */
+
+#header .header_right .nav {
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    float: right;
+    margin-right: 5%;
+}
+
+#header .header_right .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+  
+#header .header_right .nav li {
+    float: right;
+    transition: 0.5s;
+}
+  
+#header .header_right .nav  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 6px;
+    cursor: pointer;
+}
+  
+/* Change the link color to #111 (black) on hover */
+
+#header .header_right .nav  li a:hover {
+    transition: 0.5s;
+    color: rgb(114, 76, 6);
+}
+
+/* navbar */
+
+
+/* burger */
+
+#header .header_right .burger {
+    position: absolute;
+    bottom: 38px;
+}
+
+#header .header_right .price {
+  position: absolute;
+  right: 33.6pc;  
+  bottom: 6pc; 
+  width: 6%;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  line-height: 1.1;
+}
+
+#header .header_right .price span {
+  font-weight: bold; 
+  color: white;
+}
+
+/* burger */
+
+/* header right */
+
+/* header */
+
+
+/* sec1 */
+
+#sec1 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+#sec1, #sec3 {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+#sec1 .burger_left {
+  width: 48%;
+  float: left;
+  background-image: url(img/3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 15.7pc;
+  
+}
+
+#sec1 .burger_title {
+  padding: 22px;
+}
+
+#sec1 .burger_title h2 {
+  color: white;
+  font-size: 26px;
+  line-height: 0;
+}
+
+#sec1 .burger_title h1 {
+  font-size: 40px;
+  line-height: 0.3;
+  color: white;
+}
+
+#sec1 .burger_right {
+  width : 48%;
+  float: right;
+}
+#sec1 .burger_right .banner_up {
+  background-image: url(img/4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sec1 .burger_right .banner_down {
+  background-image: url(img/5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 37px;
+  margin-top: 34px;
+}
+/* sec1 */
+
+
+/* sec2 */
+
+#sec2, #sec4 {
+  text-align: center;
+}
+
+#sec2 .burger1,
+.burger2,
+.burger3 {
+    width: 33.33%;
+    float: left;
+}
+
+#sec2 .burger2 {
+    margin-top: -100px;
+}
+
+#sec2 .burgers {
+  margin-top: 155px;
+}
+
+#sec2 h5 {
+   font-family: 'Bebas Neue', cursive;
+   font-size: 25px;
+   font-weight: 400;
+   background: #ffbf00;
+   padding: 12px;
+   width: 15%; 
+   margin: 0 auto;
+   border-radius: 2px;
+}
+
+#sec2 h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 50px;
+  line-height: 0.4;
+}
+
+#sec2 .burgers h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+  line-height: 0.3;
+}
+
+#sec2 p {
+  font-family: 'Montserrat', sans-serif;
+  width: 71%;
+  margin: 30px auto;
+}
+
+#sec2 .burgers button {
+    font-family: 'Alfa Slab One', cursive;
+    border: none;
+    padding: 20px 50px;
+    background: red;
+}
+
+
+#sec2 .burgers button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#sec2 .burgers button:hover{
+    background-color: rgba(255, 0, 0, 0.801);
+}
+/* sec2 */
+
+
+/* sec3 */
+
+#sec3 .slider1 .slider_left {
+    width: 48%;
+    float: left;
+}
+
+#sec3 .slider1 .slider_right {
+    width: 48%;
+    float: right;
+}
+
+#sec3 .slider1 .slider_left h3 {
+    font-family: 'Bebas Neue', cursive;
+    line-height: 0;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+#sec3 .slider1 .slider_left h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 40px;
+  line-height: 0.5;
+}
+
+#sec3 .slider1 .slider_left p {
+   font-family: 'Montserrat', sans-serif;
+   width: 78%
+}
+
+/* sec3 */
+
+
+/* sec4 */
+
+#sec4 {
+  padding-bottom: 146px;
+  padding-top: 50px;
+}
+
+ #sec4 h3 {
+  font-size: 35px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#sec4 h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 50px;
+  line-height: 0.2;
+}
+
+#sec4 .burger1 {
+  width: 16%; 
+  position: absolute; 
+  left: 0px; 
+  top: 20px;
+}
+
+#sec4 .bottle {
+  width: 5%; 
+  position: absolute; 
+  left: 16%; 
+  top: 42%;
+}
+
+#sec4 .burger_plate {
+  width: 25%; 
+  position: absolute; 
+  right: -125px; 
+  bottom: 15px;
+}
+
+#sec4 form {
+  margin-left: 26%;
+  margin-top: 115px;
+}
+
+#sec4 form input[type=text] {
+    width: 33%;
+    float: left;
+    outline: none;
+    padding: 25px 25px;
+    margin: 8px 0px 13px 0px;
+    box-sizing: border-box;
+    margin-right: 40px;
+    border: 0px;
+    background-color: yellow;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+}
+
+#sec4 form input[type=submit] {
+    padding: 22px 25px;
+    margin-top: 8px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: red;
+    float: left;
+    width: 33%;
+    cursor: pointer;
+}
+
+#sec4 form input[type=submit]:hover {
+    background-color: rgba(255, 0, 0, 0.801);
+}
+
+/* sec4 */
+
+
+/* footer */
+
+#footer {
+    width: 1326px;
+    margin: 0 auto;
+    height: 525px;
+    background-image: url(img/13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer .footer_left {
+  width: 45%;
+  float: left;
+  padding: 80px 0px 0px 80px;
+}
+
+#footer, p span{
+   color: #ffffff;
+   letter-spacing: 0.45px;
+}
+#footer span{
+  font-family: 'Bebas Neue', cursive;
+}
+
+#footer .footer_left p {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 13pc;
+}
+
+#footer .footer_right {
+  width: 45%;
+  float: right;
+}
+
+#footer .footer_right .info {
+  margin-top: 33%;
+  margin-left: 90px;
+}
+
+#footer .footer_right .social_midea {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+#footer .footer_right .social_midea .icons {
+  color: black;
+  background-color: #ffffff;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 50%;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+#footer .footer_right .info .icon1{
+  font-size: 30px; 
+  color: #ffffff; 
+  margin-right: 20px;
+}
+
+#footer .footer_right .info .icon2{
+  font-size: 20px; 
+  color: #ffffff; 
+  margin-right: 20px;
+}
+
+#footer .footer_right .social_midea .icon3,
+#footer .footer_right .social_midea .icon5,
+#footer .footer_right .social_midea .icon6{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#footer .footer_right .social_midea .icon4{
+  padding-left: 10px; 
+  padding-right: 10px;
+}
+
+/* footer */
